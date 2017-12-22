@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jingping-wechat-common/jingping-wechat-common.iml" filepath="$PROJECT_DIR$/jingping-wechat-common/jingping-wechat-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingping-wechat-mybatis/jingping-wechat-mybatis.iml" filepath="$PROJECT_DIR$/jingping-wechat-mybatis/jingping-wechat-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingping_wechat_rss.iml" filepath="$PROJECT_DIR$/jingping_wechat_rss.iml" />
+    </modules>
+  </component>
+</project>

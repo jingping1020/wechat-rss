@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>jingping-wechat-rss</artifactId>
+        <groupId>org.jingping.wechat</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>jingping-wechat-common</artifactId>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- spring版本 -->
+        <springframework.core.version>4.2.5.RELEASE</springframework.core.version>
+        <!-- servlet 版本 -->
+        <servlet.version>3.1.0</servlet.version>
+        <!-- 缓存相关  -->
+        <service-redis.version>1.0.0-RELEASE</service-redis.version>
+        <!-- rpc相关 -->
+        <libthrift.version>0.9.3</libthrift.version>
+        <dubbo.version>2.5.3</dubbo.version>
+        <!-- JSON相关 -->
+        <fastjson.version>1.2.5</fastjson.version>
+        <!-- 日志部分 -->
+        <log4j.version>2.5</log4j.version>
+        <!-- 测试部分 -->
+        <junit.version>4.12</junit.version>
+        <!-- thread pool -->
+        <commons-pool.version>1.6</commons-pool.version>
+        <!-- zookeeper version -->
+        <zookeeper.version>3.4.8</zookeeper.version>
+        <zkclient.version>0.3</zkclient.version>
+        <!-- utils -->
+        <commons-io.version>2.4</commons-io.version>
+        <commons-lang3.version>3.4</commons-lang3.version>
+        <!-- utils -->
+        <jackson.databind.version>2.6.4</jackson.databind.version>
+        <jackson-mapper-asl.version>1.8.4</jackson-mapper-asl.version>
+        <!-- JSON相关 -->
+        <fastjson.version>1.2.5</fastjson.version>
+        <!-- 默认包私服路径-->
+        <repository>SNAPSHOT</repository>
+    </properties>
+
+    <dependencies>
+        <!-- Spring 依赖 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>${springframework.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>${springframework.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>${springframework.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${springframework.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>${springframework.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${springframework.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${springframework.core.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
